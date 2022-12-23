@@ -59,6 +59,7 @@ function check(left, right, result) {
 // Part 2.
 {
   const dividerPackets = [[[2]], [[6]]]
+
   const sorted = file
     .trim()
     .replace(/\n\n/g, "\n")
